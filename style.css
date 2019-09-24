@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* ANIMATION */
+@keyframes showImg {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.logoComp {
+  padding: 10px;
+  position: relative; }
+  .logoComp .logoComp__img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(588b61321582ae40a5ee3db040957854.png);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .logoComp .logoComp__name {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'Shadows Into Light', cursive; }
+.questionComp {
+  text-align: center;
+  margin: 0 auto;
+  background: transparent; }
+  .questionComp .questionComp__title {
+    position: relative;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: black;
+    background: white;
+    padding: 15px 20px; }
+    .questionComp .questionComp__title .fa-question {
+      position: absolute;
+      font-size: 7rem;
+      color: rgba(0, 0, 0, 0.7);
+      top: -20px;
+      right: -35px;
+      /* transform: translate(-50%, -50%); */ }
+    .questionComp .questionComp__title .quest2 {
+      position: absolute;
+      font-size: 7rem;
+      color: rgba(0, 0, 0, 0.4);
+      top: -20px;
+      right: -45px;
+      /* transform: translate(-50%, -50%); */ }
+.homeComp .homeComp__forward {
+  font-family: 'Amatic SC', cursive;
+  display: inline-block;
+  background: white;
+  padding: 20px;
+  margin: 8px 8px;
+  border: 1px solid black;
+  color: black;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.3rem;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out; }
+  .homeComp .homeComp__forward:hover {
+    cursor: pointer;
+    background: black;
+    color: white; }
+
+.homeComp {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: 65% 80%;
+  background-repeat: no-repeat;
+  background-image: url(c69683c290234adf38f1a5d74535af10.jpg); }
+  .homeComp .homeComp__category {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px; }
+  .homeComp .homeComp__forward {
+    text-decoration: none; }
+/* ANIMATION */
+@keyframes showImg {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.breakfastComp {
+  background: url(c5b88351fffaa898ad2a81640576246f.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-duration: 1s;
+  animation-name: showImg;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; }
+/* ANIMATION */
+@keyframes showImg {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.secondBreakfastComp {
+  background: url(6fa597f6c05fe149fcdc1a3dc2721f89.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-duration: 1s;
+  animation-name: showImg;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; }
+/* ANIMATION */
+@keyframes showImg {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.dinnerComp {
+  background: url(81398db71f08679eb8b1646d41529e05.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-duration: 1s;
+  animation-name: showImg;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; }
+/* ANIMATION */
+@keyframes showImg {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.dessertComp {
+  background: url(05689c1caafc2c56d849386392036648.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: 65% 80%;
+  background-repeat: no-repeat;
+  animation-duration: 1s;
+  animation-name: showImg;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; }
+/* ANIMATION */
+@keyframes showImg {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.supperComp {
+  background: url(9e35b9c150118498aa231a4ce98960ef.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-duration: 1s;
+  animation-name: showImg;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; }
+/* ANIMATION */
+@keyframes showImg {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.snacksComp {
+  background: url(419d27a107edff10aa004e26fac789be.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-duration: 1s;
+  animation-name: showImg;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; }
