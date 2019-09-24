@@ -1,0 +1,9 @@
+@import '../../styles/keyframes.scss';
+.breakfastComp{
+    background: url("../../image/breakfast.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include showImgBackground
+}

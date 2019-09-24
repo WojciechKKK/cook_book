@@ -1,0 +1,123 @@
+{
+    "breakfast": [
+        {
+            "name": "ciasto marchewkowe",
+            "keyword": ["ciasto","marchewka"],
+            "recipe": "ugotuj mase",
+            "id": "ciasto marchewkowe",
+            "img": "https://cdn.pixabay.com/photo/2016/02/19/10/29/breakfast-1209260_960_720.jpg"
+        },
+        {
+            "name": "ciasto jabłkowe",
+            "keyword": ["ciasto", "jabłko"],
+            "recipe": "ugotuj mase",
+            "id": "ciasto jabłkowe",
+            "img": "https://cdn.pixabay.com/photo/2016/02/19/10/29/breakfast-1209260_960_720.jpg"
+        },
+        {
+            "name": "jajecznica",
+            "keyword": ["jajka", "chleb"],
+            "recipe": "ugotuj mase",
+            "id": "ciasto jabłkowe",
+            "img": "https://cdn.pixabay.com/photo/2016/02/19/10/29/breakfast-1209260_960_720.jpg"
+        }
+    ],
+    "second_breakfast": [
+        {
+            "name": "ciasto marchewkowe",
+            "keyword": ["ciasto","marchewka"],
+            "recipe": "ugotuj mase",
+            "id": "ciasto marchewkowe"
+        },
+        {
+            "name": "ciasto jabłkowe",
+            "keyword": ["ciasto", "jabłko"],
+            "recipe": "ugotuj mase",
+            "id": "ciasto jabłkowe"
+        }
+    ],
+    "dinner": [
+        {
+            "name": "kotlet schębowy",
+            "keyword": ["schab", "mięso", "sól","dupa"],
+            "recipe": "na patelanie wrzuć mięso",
+            "id": "kotlet schębowy",
+            "img": "https://cdn.pixabay.com/photo/2016/02/19/10/29/breakfast-1209260_960_720.jpg"
+        },
+        {
+            "name": "kotlet mielony",
+            "keyword": ["wieprzowina", "sól", "mięso","woda","t1", "t2"],
+            "recipe": "ugotuj mięso, do szybko",
+            "id": "kotlet mielony",
+            "img": "https://cdn.pixabay.com/photo/2014/09/15/16/53/tomatoes-447170_960_720.jpg"
+        },
+        {
+            "name": "ziemniaki",
+            "keyword": ["ziemniaki","woda", "mięso", "t1", "t2"],
+            "recipe": "włóż do wody sól, szybko",
+            "id": "ziemniaki"
+        },
+        {
+            "name": "cos",
+            "keyword": ["cos"],
+            "recipe": "włóż do cos, szybko",
+            "id": "cos"
+        }
+    ],
+    "dessert": [
+        {
+            "name": "ciasto marchewkowe",
+            "keyword": ["ciasto","marchewka"],
+            "recipe": "ugotuj mase",
+            "id": "ciasto marchewkowe",
+            "img": "https://cdn.pixabay.com/photo/2016/02/19/10/29/breakfast-1209260_960_720.jpg"
+        },
+        {
+            "name": "ciasto jabłkowe",
+            "keyword": ["ciasto", "jabłko"],
+            "recipe": "ugotuj mase",
+            "id": "ciasto jabłkowe"
+        }
+    ],
+    "supper": [
+        {
+            "name": "kanapki z serem",
+            "keyword": ["chleb", "ser"],
+            "recipe": "posmaruj chleb i nałóż ser",
+            "id": "kanapki z serem"
+        },
+        {
+            "name": "kanapki z szynka",
+            "keyword": ["chleb", "szynka"],
+            "recipe": "posmaruj chleb i nałóż szynke",
+            "id": "kanapki z szynka",
+            "img": "https://cdn.pixabay.com/photo/2014/09/15/16/53/tomatoes-447170_960_720.jpg"
+        }
+    ],
+    "snacks": [
+        {
+            "name": "kotlet schębowy",
+            "keyword": ["schab", "mięso", "sól","dupa"],
+            "recipe": "na patelanie wrzuć mięso",
+            "id": "kotlet schębowy"
+        },
+        {
+            "name": "kotlet mielony",
+            "keyword": ["wieprzowina", "sól", "mięso","woda","t1", "t2"],
+            "recipe": "ugotuj mięso, do szybko",
+            "id": "kotlet mielony"
+        },
+        {
+            "name": "ziemniaki",
+            "keyword": ["ziemniaki","woda", "mięso", "t1", "t2"],
+            "recipe": "włóż do wody sól, szybko",
+            "id": "ziemniaki"
+        },
+        {
+            "name": "cos",
+            "keyword": ["cos"],
+            "recipe": "włóż do cos, szybko",
+            "id": "cos"
+        }
+    ]
+}

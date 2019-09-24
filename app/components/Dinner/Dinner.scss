@@ -1,0 +1,10 @@
+@import '../../styles/keyframes.scss';
+
+.dinnerComp{
+    background: url("../../image/dinner.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include showImgBackground
+}

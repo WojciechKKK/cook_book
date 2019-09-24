@@ -1,0 +1,9 @@
+@import '../../styles/keyframes.scss';
+.supperComp{
+    background: url("../../image/supper.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include showImgBackground
+}

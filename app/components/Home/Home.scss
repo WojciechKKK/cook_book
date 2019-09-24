@@ -1,0 +1,47 @@
+$colorCategory: black;
+$colorCategoryBack: white;
+
+%btnCategory{
+    font-family: 'Amatic SC', cursive;
+    display: inline-block;
+    background: $colorCategoryBack;
+    padding: 20px;
+    margin: 8px 8px;
+    border: 1px solid $colorCategory;
+    color: $colorCategory;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.3rem;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    &:hover{
+        cursor: pointer;
+        background: $colorCategory;
+        color: $colorCategoryBack  
+    }
+}
+
+.homeComp{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: 65% 80%;
+    background-repeat: no-repeat;
+    background-image: url('../../image/background.jpg');
+    .homeComp__category{
+        margin: 0 auto;
+        text-align: center;
+        margin-top:50px
+    }
+    .homeComp__forward{
+        @extend %btnCategory;
+        text-decoration: none;
+    }
+    // .home__title{
+    //     text-align: center;
+    //     color: white;
+    //     font-family: 'Nunito', sans-serif;
+    //     font-size: 0.8rem
+    // }
+   
+}

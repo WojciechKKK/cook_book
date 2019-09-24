@@ -1,0 +1,11 @@
+@import '../../styles/keyframes.scss';
+
+.dessertComp{
+    background: url("../../image/dessert.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: 65% 80%;
+    background-repeat: no-repeat;
+    @include showImgBackground
+    
+}

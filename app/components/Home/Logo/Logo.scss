@@ -1,0 +1,22 @@
+$colorText: black;
+.logoComp{
+    padding: 10px;
+    position: relative;
+    .logoComp__img{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: url("../../../image/logo.png");
+        background-size: contain;
+        background-repeat: no-repeat
+    }
+    .logoComp__name{
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 60px;
+        transform: translate(-50%, -50%);
+        color: $colorText;
+        font-family: 'Shadows Into Light', cursive;   
+    }
+}
