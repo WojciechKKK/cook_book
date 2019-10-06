@@ -45,6 +45,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 /* ANIMATION */
 @keyframes showImg {
   0% {
@@ -96,7 +101,10 @@ table {
       top: -20px;
       right: -45px;
       /* transform: translate(-50%, -50%); */ }
-.homeComp .homeComp__forward {
+body {
+  font-family: 'Nunito', sans-serif; }
+
+.homeComp .homeComp__category .homeComp__element .homeComp__forward {
   font-family: 'Amatic SC', cursive;
   display: inline-block;
   background: white;
@@ -108,8 +116,9 @@ table {
   font-size: 1.1rem;
   letter-spacing: 0.3rem;
   border-radius: 10px;
-  transition: 0.2s ease-in-out; }
-  .homeComp .homeComp__forward:hover {
+  transition: 0.2s ease-in-out;
+  width: 60%; }
+  .homeComp .homeComp__category .homeComp__element .homeComp__forward:hover {
     cursor: pointer;
     background: black;
     color: white; }
@@ -125,8 +134,87 @@ table {
     margin: 0 auto;
     text-align: center;
     margin-top: 50px; }
-  .homeComp .homeComp__forward {
-    text-decoration: none; }
+    .homeComp .homeComp__category .homeComp__element {
+      width: 100%; }
+      .homeComp .homeComp__category .homeComp__element .homeComp__forward {
+        text-decoration: none; }
+      .homeComp .homeComp__category .homeComp__element .homeComp__items {
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        font-size: 12px;
+        width: 20%;
+        display: inline-block; }
+
+@media (min-width: 800px) {
+  .homeComp__items {
+    display: none; }
+  .homeComp .homeComp__category .homeComp__element {
+    display: inline-block;
+    width: auto; }
+    .homeComp .homeComp__category .homeComp__element .homeComp__forward {
+      width: auto; }
+    .homeComp .homeComp__category .homeComp__element .homeComp__items {
+      display: none; } }
+.inputKeywordComp {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center; }
+  .inputKeywordComp .inputKeywordComp__placeholder {
+    text-align: center; }
+  .inputKeywordComp .inputKeywordComp__btnSend {
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid black;
+    background: black;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s ease-in-out; }
+    .inputKeywordComp .inputKeywordComp__btnSend:hover {
+      background: white;
+      color: black; }
+  .inputKeywordComp .inputKeywordComp__search {
+    position: relative; }
+    .inputKeywordComp .inputKeywordComp__search .inputKeywordComp__input {
+      height: 50px;
+      padding: 20px;
+      width: 100%; }
+    .inputKeywordComp .inputKeywordComp__search .searchIcon {
+      background: white;
+      cursor: pointer;
+      position: absolute;
+      height: 40px;
+      width: 40px;
+      top: 50%;
+      right: 0px;
+      transform: translate(-5px, -50%);
+      text-align: center;
+      margin: 0 auto; }
+      .inputKeywordComp .inputKeywordComp__search .searchIcon:hover {
+        background-color: black; }
+    .inputKeywordComp .inputKeywordComp__search .fas {
+      color: black;
+      font-size: 1.2rem;
+      padding: 10px; }
+      .inputKeywordComp .inputKeywordComp__search .fas:hover {
+        color: white; }
+.backComp {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  bottom: 10%; }
+  .backComp .backComp_btn {
+    padding: 10px 80px;
+    color: black;
+    border: 1px solid black;
+    background: white;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s ease-in-out; }
+    .backComp .backComp_btn:hover {
+      background: black;
+      color: white; }
 /* ANIMATION */
 @keyframes showImg {
   0% {
@@ -138,8 +226,8 @@ table {
   background: url(c5b88351fffaa898ad2a81640576246f.jpg);
   height: 100vh;
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   animation-duration: 1s;
   animation-name: showImg;
   animation-iteration-count: 1;
