@@ -1,3 +1,3 @@
 # cook_book
 In progress
-https://wojciechkkk.pl/test/#/
+https://wojciechkkk.pl/cook_book/#/
